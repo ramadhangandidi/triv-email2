@@ -103,6 +103,22 @@
             vertical-align: top;
             text-align: center;
         }
+
+        .two_columns .column tr td {
+            width: 500px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media only screen and (min-width: 1000px) {
+            .two_columns .column .align-right {
+                text-align: right;
+            }
+
+            .two_columns .column .align-left {
+                text-align: left;
+            }
+        }
     </style>
 </head>
 
@@ -285,14 +301,14 @@
             </tr>
 
             <!-- TWO COLUMN SECTION -->
-            <!-- <tr style="background-color: #171e28;">
+            <tr style="background-color: #171e28;">
                 <td>
                     <table width="100%">
                         <tr>
                             <td class="two_columns">
                                 <table class="column">
                                     <tr>
-                                        <td style="padding: 0 62px 10px;">
+                                        <td class="align-left">
                                             <p class="triv_ff_montserratMedium"
                                                 style="font-size: 20px; color: #ffffff;">
                                                 Copyright © 2015 - 2022 Triv Indonesia
@@ -303,7 +319,7 @@
 
                                 <table class="column">
                                     <tr>
-                                        <td style="padding: 10px 72px">
+                                        <td class="align-right">
                                             <img src="./assets/img/bappebti.png" alt="Lorem Ipsum" width="50"
                                                 style="filter: brightness(0) invert(1);">
                                             <img src="./assets/img/group-6.png" alt="Lorem Ipsum" width="70"
@@ -320,8 +336,8 @@
                         </tr>
                     </table>
                 </td>
-            </tr> -->
-            <tr style="background-color: #171e28;">
+            </tr>
+            <!-- <tr style="background-color: #171e28;">
                 <td style="padding: 20px;">
                     <table width="100%">
                         <tr>
@@ -344,7 +360,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
+            </tr> -->
         </table>
     </center>
 
