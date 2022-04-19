@@ -1,10 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" style="color-scheme: light dark; supported-color-schemes: light dark;">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
 
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,9 +17,32 @@
     <title>Modern HTML Email Template</title>
 
     <style type="text/css">
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            body {
+                background-color: #172430 !important;
+                color: #ffffff !important;
+            }
+
+            h1,
+            h2,
+            h3,
+            p,
+            td {
+                color: #ffffff !important;
+            }
+
+            /* More styles here */
+        }
+
         body {
             margin: 0;
-            background-color: #cccccc;
+            background-color: #2e3848;
         }
 
         table {
@@ -54,7 +80,7 @@
         .main {
             margin: 0 auto;
             width: 100%;
-            max-width: 1000px;
+            max-width: 600px;
             border-spacing: 0;
         }
 
@@ -66,7 +92,7 @@
 
         .four_columns .column {
             width: 100%;
-            max-width: 250px;
+            max-width: 150px;
             display: inline-block;
             vertical-align: top;
             text-align: center;
@@ -77,21 +103,29 @@
         }
 
         .four_columns .content img {
-            height: 140px;
+            height: 100px;
         }
 
-        @media screen and (min-width : 768px) {
+        /* @media screen and (min-width : 768px) {
+            .triv_input {
+                padding: 21px 0 !important;
+            }
+
             .triv_inputContent {
-                font-size: 32px;
+                font-size: 32px !important;
+            }
+
+            .triv_inputButton {
+                margin-top: -40px !important;
             }
 
             .two_columns .column img {
                 padding: 0 15px;
             }
-        }
+        } */
 
         .triv_inputContent {
-            font-size: 18px;
+            font-size: 22px;
         }
 
         .two_columns {
@@ -101,25 +135,29 @@
 
         .two_columns .column {
             width: 100%;
-            max-width: 500px;
+            max-width: 300px;
             display: inline-block;
             vertical-align: top;
             text-align: center;
         }
 
         .two_columns .column tr td {
-            width: 500px;
+            width: 300px;
             padding: 20px;
             text-align: center;
         }
 
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 600px) {
             .two_columns .column .align-right {
                 text-align: right;
             }
 
             .two_columns .column .align-left {
                 text-align: left;
+            }
+
+            .two_columns .column .align-left p {
+                margin-top: 18px;
             }
         }
 
@@ -128,28 +166,28 @@
         }
     </style>
 <style>body {
-margin: 0; background-color: #cccccc;
+margin: 0; background-color: #2e3848;
 }
 img {
 border: 0;
 }
 </style></head>
 
-<body style="margin: 0;" bgcolor="#cccccc">
+<body style="margin: 0;" bgcolor="#2e3848">
 
     <center style="width: 100%; table-layout: fixed; background-color: #cccccc;">
-        <table width="100%" style="border-spacing: 0; width: 100%; max-width: 1000px; margin: 0 auto;">
+        <table width="100%" style="border-spacing: 0; width: 100%; max-width: 600px; margin: 0 auto;">
 
 
             
             <tr style="" align="center" bgcolor="white">
-                <td style="padding: 45px 0;">
+                <td style="padding: 20px 0;">
                     <img src="https://i.postimg.cc/LJybBJ8d/triv-logo.png" alt="Lorem Ipsum" width="auto" height="70px" style="border: 0;" />
                 </td>
             </tr>
 
             
-            <tr style="" bgcolor="purple">
+            <tr style="background: url(https://i.ibb.co/k592B9D/rectangle-525.png) 0% 0% / contain;">
                 <td style="max-width: 800px; padding: 0 20px 100px;">
                     <p style="font-size: 28px; letter-spacing: -0.28px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500; color: #ffffff;" align="center">
                         Dear Anton
@@ -161,35 +199,59 @@ border: 0;
                         </span>
                         dari Budi
                     </p>
-                    <img src="https://i.postimg.cc/2VDMzpKt/group-3.png" alt="Lorem Ipsum" style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto; border: 0;" />
-                    <div style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto;">
-                        <p style="font-size: 24px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; color: #ffffff;">
-                            Gift Card Code
-                        </p>
-                    </div>
-                    <div style="width: 100%; max-width: 800px; background-color: #d2d2d2; height: 80px; border-radius: 10px; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: space-between;">
-                        <p style="color: #272727; padding-left: 30px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; font-size: 18px; margin: 0;">
-                            123-456-7890
-                        </p>
-                        <button style="outline: 0; background-color: transparent; cursor: pointer; padding-right: 30px; border: none;">
-                            <img src="https://i.postimg.cc/yD7MTqhR/copying.png" alt="Lorem Ipsum" width="40px" height="45px" style="border: 0;" />
-                        </button>
-                    </div>
-                    <div style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto;">
-                        <p style="font-size: 24px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; color: #ffffff;">
-                            Pesan
-                        </p>
-                    </div>
-                    <div style="width: 100%; max-width: 800px; background-color: #d2d2d2; height: 80px; border-radius: 10px; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: space-between;">
-                        <p style="color: #272727; padding-left: 30px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; font-size: 18px; margin: 0;">
-                            Happy Birthday ya bestie!
-                        </p>
-                    </div>
+                    <img src="https://i.ibb.co/rxLsLWp/group-3.png" alt="Lorem Ipsum" style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto; border: 0;" />
+                    <table width="100%" style="border-spacing: 0;">
+                        <tr>
+                            <td style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto; padding: 0;">
+                                <p style="font-size: 24px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; color: #ffffff;">
+                                    Gift Card Code
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto; padding: 0;">
+                                <table width="100%" style="border-spacing: 0;">
+                                    <tr style="" bgcolor="#d2d2d2">
+                                        <td style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; padding: 0;">
+                                            <p style="padding-left: 30px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; font-size: 22px;">
+                                                123-456-7890
+                                            </p>
+                                        </td>
+                                        <td style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding: 0;" align="right">
+                                            <button style="outline: 0; background-color: transparent; cursor: pointer; padding-right: 30px; border: none;">
+                                                <img src="https://i.postimg.cc/yD7MTqhR/copying.png" alt="Lorem Ipsum" width="30px" height="35px" style="border: 0;" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto; padding: 0;">
+                                <p style="font-size: 24px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; color: #ffffff;">
+                                    Pesan
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto; padding: 0;">
+                                <table width="100%" style="border-spacing: 0;">
+                                    <tr style="" bgcolor="#d2d2d2">
+                                        <td style="border-radius: 10px; padding: 0;">
+                                            <p style="padding-left: 30px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 700; font-size: 22px;">
+                                                Happy Birthday ya bestie!
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
                 </td>
             </tr>
 
             
-            <tr style="background-image: url('https://i.postimg.cc/dLcPLZL4/05-copy.png');">
+            <tr style="background-image: url(https://i.postimg.cc/dLcPLZL4/05-copy.png);">
                 <td style="padding: 0;">
                     <table width="100%" style="border-spacing: 0;">
                         <tr>
@@ -201,18 +263,18 @@ border: 0;
                         </tr>
                         <tr>
                             <td style="font-size: 0; padding: 15px 0 25px;" align="center">
-                                <table style="border-spacing: 0; width: 100%; max-width: 250px; display: inline-block; vertical-align: top; text-align: center;">
+                                <table style="border-spacing: 0; width: 100%; max-width: 150px; display: inline-block; vertical-align: top; text-align: center;">
                                     <tr>
                                         <td style="padding: 15px;">
                                             <table style="border-spacing: 0;">
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <img src="https://i.postimg.cc/fSxPx5J5/login.png" alt="Lorem Ipsum" width="140" style="max-width: 140px; height: 140px; border: 0;" />
+                                                        <img src="https://i.postimg.cc/fSxPx5J5/login.png" alt="Lorem Ipsum" width="100" style="max-width: 140px; height: 100px; border: 0;" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <p style="color: #464646; font-size: 20px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
+                                                        <p style="color: #464646; font-size: 12px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
                                                             1. Login ke akun Triv.co.id anda
                                                         </p>
                                                     </td>
@@ -221,18 +283,18 @@ border: 0;
                                         </td>
                                     </tr>
                                 </table>
-                                <table style="border-spacing: 0; width: 100%; max-width: 250px; display: inline-block; vertical-align: top; text-align: center;">
+                                <table style="border-spacing: 0; width: 100%; max-width: 150px; display: inline-block; vertical-align: top; text-align: center;">
                                     <tr>
                                         <td style="padding: 15px;">
                                             <table style="border-spacing: 0;">
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <img src="https://i.postimg.cc/hXMHyCM5/card.png" alt="Lorem Ipsum" width="140" style="max-width: 140px; height: 140px; border: 0;" />
+                                                        <img src="https://i.postimg.cc/hXMHyCM5/card.png" alt="Lorem Ipsum" width="100" style="max-width: 140px; height: 100px; border: 0;" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <p style="color: #464646; font-size: 20px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
+                                                        <p style="color: #464646; font-size: 12px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
                                                             2. Pilih menu “Gift Card”
                                                         </p>
                                                     </td>
@@ -241,18 +303,18 @@ border: 0;
                                         </td>
                                     </tr>
                                 </table>
-                                <table style="border-spacing: 0; width: 100%; max-width: 250px; display: inline-block; vertical-align: top; text-align: center;">
+                                <table style="border-spacing: 0; width: 100%; max-width: 150px; display: inline-block; vertical-align: top; text-align: center;">
                                     <tr>
                                         <td style="padding: 15px;">
                                             <table style="border-spacing: 0;">
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <img src="https://i.postimg.cc/3krqvX7C/present-box.png" alt="Lorem Ipsum" width="140" style="max-width: 140px; height: 140px; border: 0;" />
+                                                        <img src="https://i.postimg.cc/3krqvX7C/present-box.png" alt="Lorem Ipsum" width="100" style="max-width: 140px; height: 100px; border: 0;" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <p style="color: #464646; font-size: 20px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
+                                                        <p style="color: #464646; font-size: 12px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
                                                             3. Pilih menu “Redeem”
                                                         </p>
                                                     </td>
@@ -261,18 +323,18 @@ border: 0;
                                         </td>
                                     </tr>
                                 </table>
-                                <table style="border-spacing: 0; width: 100%; max-width: 250px; display: inline-block; vertical-align: top; text-align: center;">
+                                <table style="border-spacing: 0; width: 100%; max-width: 150px; display: inline-block; vertical-align: top; text-align: center;">
                                     <tr>
                                         <td style="padding: 15px;">
                                             <table style="border-spacing: 0;">
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <img src="https://i.postimg.cc/4mQMyLCx/password.png" alt="Lorem Ipsum" width="150" style="max-width: 150px; height: 140px; border: 0;" />
+                                                        <img src="https://i.postimg.cc/4mQMyLCx/password.png" alt="Lorem Ipsum" width="110" style="max-width: 150px; height: 100px; border: 0;" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <p style="color: #464646; font-size: 20px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
+                                                        <p style="color: #464646; font-size: 12px; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
                                                             4. Masukkan kode Gift Card anda
                                                         </p>
                                                     </td>
@@ -296,35 +358,37 @@ border: 0;
             </tr>
 
             
-            <tr style="background-color:#171e28">
-                <td style="padding:0">
-                  <table width="100%" style="border-spacing:0">
-                    <tbody><tr>
-                      <td style="padding:0;text-align:center;font-size:0">
-                        <table style="border-spacing:0;width:100%;max-width:500px;display:inline-block;vertical-align:top;text-align:center">
-                          <tbody><tr>
-                            <td style="padding:0;width:500px;padding:20px;text-align:center">
-                              <p style="font-family:&quot;Montserrat&quot;,sans-serif;font-weight:500;font-size:20px;color:#ffffff">
-                                Copyright © 2015 - 2022 Triv Indonesia
-                                                  </p>
+            <tr style="" bgcolor="#171e28">
+                <td style="padding: 0;">
+                    <table width="100%" style="border-spacing: 0;">
+                        <tr>
+                            <td style="font-size: 0; padding: 0;" align="center">
+                                <table style="border-spacing: 0; width: 100%; max-width: 300px; display: inline-block; vertical-align: top; text-align: center;">
+                                    <tr>
+                                        <td style="width: 300px; padding: 20px;" align="center">
+                                            <p style="font-size: 12px; color: #ffffff; font-family: &quot;Montserrat&quot;, sans-serif; font-weight: 500;">
+                                                Copyright © 2015 - 2022 Triv Indonesia
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table style="border-spacing: 0; width: 100%; max-width: 300px; display: inline-block; vertical-align: top; text-align: center;">
+                                    <tr>
+                                        <td style="width: 300px; padding: 20px;" align="center">
+                                            <img src="https://i.postimg.cc/Y49TJ1sq/bappebti.png" alt="Lorem Ipsum" width="35" style="padding: 0 10px; border: 0;" />
+                                            <img src="https://i.postimg.cc/MMfNGzwC/group-6.png" alt="Lorem Ipsum" width="55" style="padding: 0 10px; border: 0;" />
+                                            <img src="https://i.ibb.co/sH5yFRq/iso-e-1538996534469.png" alt="Lorem Ipsum" width="40" style="padding: 0 10px; border: 0;" />
+                                            <img src="https://i.ibb.co/t8Lmpxv/bitmap.png" alt="Lorem Ipsum" width="35" style="padding: 0 10px; border: 0;" />
+                                        </td>
+                                    </tr>
+                                </table>
+
                             </td>
-                          </tr>
-                        </tbody></table>
-                        <table style="border-spacing:0;width:100%;max-width:500px;display:inline-block;vertical-align:top;text-align:center">
-                          <tbody><tr>
-                            <td style="padding:0;width:500px;padding:20px;text-align:center">
-                              <img src="https://ci4.googleusercontent.com/proxy/uaGeDuD2wyX9TEtRuRzvCwruf95JfT0klEbSgT1n16kJ46_KalCwrcBy96pdxM3IOFDQX4taruBSFGekQg=s0-d-e1-ft#https://i.postimg.cc/Y49TJ1sq/bappebti.png" alt="Lorem Ipsum" width="50" style="border:0;padding:0 10px" class="CToWUd">
-                              <img src="https://ci5.googleusercontent.com/proxy/tdSY2DIIP3vHXTgHD4PcyIsDloap07tPj4Cw5FBzptzcsX5z1sjuyaSIQvNDYfJ6GShkitPTAMUUUDsH=s0-d-e1-ft#https://i.postimg.cc/MMfNGzwC/group-6.png" alt="Lorem Ipsum" width="70" style="border:0;padding:0 10px" class="CToWUd">
-                              <img src="https://ci3.googleusercontent.com/proxy/M9BbPSs7t6JD9kmVBu9NWK75HfMHlSfNYLJ8PTDaAEqI-ybGhWv2NmtAxFqHq5JAb4ukNtcBqK7x38vs=s0-d-e1-ft#https://i.postimg.cc/qt5W0zPc/group-5.png" alt="Lorem Ipsum" width="55" style="border:0;padding:0 10px" class="CToWUd">
-                              <img src="https://ci6.googleusercontent.com/proxy/KcqN2PYYFmtAl0VAF7axoIT20J5CBB6wxK-CfZj2xky9UriHt2zhLKRXFs6rM8Z19qebPlIJV_sNwF4P=s0-d-e1-ft#https://i.postimg.cc/5QcGYDN6/group-7.png" alt="Lorem Ipsum" width="50" style="border:0;padding:0 10px" class="CToWUd">
-                            </td>
-                          </tr>
-                        </tbody></table>
-                      </td>
-                    </tr>
-                  </tbody></table>
+                        </tr>
+                    </table>
                 </td>
-              </tr>
+            </tr>
             
         </table>
     </center>
