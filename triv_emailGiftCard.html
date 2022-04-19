@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+
     <!-- Font Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +18,32 @@
     <title>Modern HTML Email Template</title>
 
     <style type="text/css">
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            body {
+                background-color: #172430 !important;
+                color: #ffffff !important;
+            }
+
+            h1,
+            h2,
+            h3,
+            p,
+            td {
+                color: #ffffff !important;
+            }
+
+            /* More styles here */
+        }
+
         body {
             margin: 0;
-            background-color: #cccccc;
+            background-color: #2e3848;
         }
 
         table {
@@ -150,7 +176,7 @@
 
             <!-- TOP LOGO -->
             <tr style="background-color: white; text-align: center;">
-                <td style="padding: 45px 0;">
+                <td style="padding: 20px 0;">
                     <img src="https://i.postimg.cc/LJybBJ8d/triv-logo.png" alt="Lorem Ipsum" width="auto" height="70px">
                 </td>
             </tr>
